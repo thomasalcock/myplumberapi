@@ -79,6 +79,13 @@
       "Repository": "CRAN",
       "Hash": "7fce217eaaf8016e72065e85c73027b5"
     },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b8cff1d1391fd1ad8b65877f4c7f2e53"
+    },
     "glue": {
       "Package": "glue",
       "Version": "1.4.0",
@@ -92,6 +99,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "f793dad2c9ae14fbb1d22f16f23f8326"
+    },
+    "janitor": {
+      "Package": "janitor",
+      "Version": "2.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7eb42c3bb09e2019b97de69d2ea9dfff"
     },
     "jsonlite": {
       "Package": "jsonlite",
@@ -113,6 +127,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "361811f31f71f8a617a9a68bf63f1f42"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.7.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6c04c31012c1be39783bebbbfc27b3a3"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -177,6 +198,13 @@
       "Repository": "CRAN",
       "Hash": "1cc1b38e4db40ea6eb19ab8080bbed3b"
     },
+    "snakecase": {
+      "Package": "snakecase",
+      "Version": "0.11.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4079070fc210c7901c0832a3aeab894f"
+    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.4.6",
@@ -184,12 +212,26 @@
       "Repository": "CRAN",
       "Hash": "e99d8d656980d2dd416a962ae55aec90"
     },
+    "stringr": {
+      "Package": "stringr",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0759e6b6c0957edb1311028a49a35e76"
+    },
     "tibble": {
       "Package": "tibble",
       "Version": "3.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "e742bc8d72071ef9aba29f71f132d773"
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fb73a010ace00d6c584c2b53a21b969c"
     },
     "tidyselect": {
       "Package": "tidyselect",
