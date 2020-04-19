@@ -10,6 +10,10 @@ df <- janitor::clean_names(df)
 #' @get /getdata
 
 function(min_sq_ft, max_price){
+  
+  min_sq_ft <- as.numeric(min_sq_ft)
+  max_price <- as.numeric(max_price)
+  
   df %>% 
     dplyr::filter(
       lot_area >= min_sq_ft &
