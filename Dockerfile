@@ -1,8 +1,13 @@
 FROM trestletech/plumber
 
-RUN mkdir root/api
+RUN mkdir -p root/api/code
+RUN mkdir -p root/api/data
+RUN mkdir -p root/api/renv
 
-COPY . root/api/
+COPY ./code root/api/code
+COPY ./renv root/api/renv
+COPY ./renv.lock root/api/renv.lock
+
 WORKDIR /root/api
 
 RUN R -e "install.packages('renv')"
